@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Lingerie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 60px; /* Ajout de marge en bas pour le footer */
+        }
+    
+        header {
+            text-align: center; /* Centrer le contenu du header */
+            padding: 20px;
+        }
+    
+        .logo img {
+            width: 250px; /* Dimension du logo */
+            height: auto; /* Pour conserver le ratio */
+        }
+    
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centrer les éléments du menu */
+            background-color: #800080; /* Fond violet pour le menu */
+            margin-bottom: 20px; /* Ajout de marge en bas */
+        }
+    
+        nav ul li {
+            margin-right: 20px;
+            position: relative;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Couleur du texte du menu */
+            padding: 10px 20px;
+            transition: background-color 0.3s; /* Transition fluide pour le survol */
+            position: relative;
+        }
+
+        nav ul li a:hover {
+            background-color: #6a007d; /* Couleur de fond au survol */
+        }
+
+        .sub-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #800080;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .sub-menu a {
+            color: #ffffff; /* Couleur du texte dans le menu déroulant */
+            display: block;
+            padding: 5px 0;
+            transition: background-color 0.3s; /* Transition fluide pour le survol */
+        }
+
+        .sub-menu a:hover {
+            background-color: #6a007d; /* Couleur de fond au survol */
+        }
+    
+        .banner {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .banner img {
+            max-width: 100%; /* Image de la bannière s'adaptant à la taille de l'écran */
+            height: auto;
+        }
+    
+        h1, h2 {
+            color: #ffffff;
+            background-color: #800080;
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0; /* Marge pour ne pas coller au rebord */
+        }
+    
+        p {
+            margin-bottom: 20px;
+            text-align: justify; /* Justifier le texte pour une meilleure lisibilité */
+            margin: 0 20px; /* Marge pour ne pas coller au rebord */
+        }
+    
+        footer {
+            background-color: #800080;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Styles pour les onglets */
+        main section {
+            display: none;
+            text-align: center;
+            margin-top: 50px; /* Ajout de marge en haut pour aérer la page */
+        }
+
+        main section img {
+            max-width: 80%; /* Réduction de la largeur des images */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #accueil {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://tse3.mm.bing.net/th/id/OIG1.Q6VUyR9aMiWz.DKmyHah?pid=ImgGn" alt="Logo Luna Lingerie">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a>
+                <div class="sub-menu">
+                    <a href="#histoire">Notre Histoire</a>
+                    <a href="#engagements">Nos Engagements</a>
+                    <a href="#collections">Nos Collections</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </li>
+            <li><a href="#histoire">Notre Histoire</a></li>
+            <li><a href="#engagements">Nos Engagements</a></li>
+            <li><a href="#collections">Nos Collections</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#partenaire">Partenaire</a></li> <!-- Nouvelle catégorie "Partenaire" -->
+        </ul>
+    </nav>
+    <main>
+        <section id="accueil">
+            <div class="banner">
+                <img src="https://cache.cosmopolitan.fr/data/photo/w1000_ci/5y/femme-shopping-bag.jpg" alt="Bannière Luna Lingerie">
+            </div>
+            <h1>Accueil</h1>
+            <p>Bienvenue chez Luna Lingerie, où chaque pièce est conçue pour célébrer la beauté naturelle de chaque femme. Notre passion pour la mode et la féminité se reflète dans chaque couture de nos créations. Explorez nos collections exquises et trouvez la lingerie parfaite pour chaque occasion.</p>
+            <a href="#histoire"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypdXTotpbmll4VhQSzcv289ChC6b5CVW-GQ&usqp=CAU" alt="Notre Histoire"></a>
+            <a href="#engagements"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4PyC5luJ0od-sxrHnL8gin8I0fw0pxRKMg&usqp=CAU" alt="Nos Engagements"></a>
+            <a href="#collections"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSpET59RiDzU3x4d_Vtc2lZLldHTRvU6bb_DqpbBjV6R6LW8ozZPnvQqiiJ4p_lzvYhw&usqp=CAU" alt="Nos Collections"></a>
+            <a href="#blog"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5RMv7XV2XB0OjCqWRim_Vs8FDezfhdv1UA&usqp=CAU" alt="Blog"></a>
+            <a href="#contact"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyrD4MWvEQ_gix7VXCa5cUff-RoyB0WAMg4Q&usqp=CAU" alt="Contact"></a>
+        </section>
+
+        <section id="histoire">
+            <h2>Notre Histoire</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypdXTotpbmll4VhQSzcv289ChC6b5CVW-GQ&usqp=CAU" alt="Notre Histoire">
+            <p>Luna est née de la passion d'une femme pour la lingerie et l'élégance intemporelle. Depuis nos modestes débuts, nous avons évolué pour devenir une marque internationale, tout en restant fidèles à notre engagement envers la qualité et l'authenticité.</p>
+            <p>Chaque création Luna est le fruit d'une attention méticuleuse aux détails et d'une recherche constante de perfection. Notre histoire est celle d'une détermination à offrir à chaque femme une expérience de lingerie qui la fait se sentir belle, confiante et libre.</p>
+            <p>Rejoignez-nous dans cette aventure où la féminité est célébrée sous toutes ses formes, et où chaque courbe est honorée.</p>
+        </section>
+
+        <section id="engagements">
+            <h2>Nos Engagements</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4PyC5luJ0od-sxrHnL8gin8I0fw0pxRKMg&usqp=CAU" alt="Nos Engagements">
+            <p>Chez Luna, nous croyons en la puissance de la lingerie pour inspirer la confiance et célébrer la diversité. Nos engagements sont ancrés dans nos valeurs de respect, d'inclusion et d'authenticité.</p>
+            <p>Nous nous engageons à représenter une gamme variée de corps dans nos campagnes et nos collections, afin de promouvoir la diversité et l'acceptation de soi. Chez Luna, chaque femme est belle, peu importe sa taille, sa forme ou sa couleur de peau.</p>
+            <p>Nous sommes également déterminés à réduire notre impact sur l'environnement en adoptant des pratiques durables tout au long de notre processus de production. Ensemble, nous pouvons créer un monde où la beauté rime avec égalité et responsabilité.</p>
+        </section>
+
+        <section id="collections">
+            <h2>Nos Collections</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSpET59RiDzU3x4d_Vtc2lZLldHTRvU6bb_DqpbBjV6R6LW8ozZPnvQqiiJ4p_lzvYhw&usqp=CAU" alt="Nos Collections">
+            <p>Explorez nos collections de lingerie conçues pour sublimer chaque silhouette et exprimer votre style unique. De la dentelle délicate aux tissus luxueux, chaque pièce Luna est conçue avec soin pour offrir un confort absolu et une allure incomparable.</p>
+            <p>Que vous recherchiez un soutien-gorge push-up pour une touche de glamour, une culotte taille haute pour un confort quotidien ou une nuisette sensuelle pour une occasion spéciale, nous avons tout ce dont vous avez besoin pour vous sentir magnifique de l'intérieur et de l'extérieur.</p>
+            <p>Découvrez nos dernières créations et laissez-vous inspirer par l'élégance intemporelle de la lingerie Luna.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Explorer le Blog Luna</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5RMv7XV2XB0OjCqWRim_Vs8FDezfhdv1UA&usqp=CAU" alt="Blog">
+            <p>Plongez dans l'univers captivant de la lingerie et de la féminité avec le blog Luna. Découvrez des articles inspirants sur les dernières tendances, des conseils de style, des interviews exclusives et bien plus encore.</p>
+            <p>Nos rédacteurs passionnés partagent leur expertise et leur amour pour la mode intime, afin de vous aider à trouver le soutien-gorge parfait, la culotte idéale et bien plus encore. Que vous recherchiez des conseils de style ou des idées de cadeaux, notre blog est votre source incontournable d'inspiration.</p>
+            <p>Rejoignez la conversation et explorez le monde de la lingerie avec le blog Luna.</p>
+            <p>Articles Récents du Blog Luna :</p>
+            <ul>
+                <li>"Les tendances de la lingerie pour la saison estivale"</li>
+                <li>"Comment choisir le soutien-gorge parfait : Guide ultime"</li>
+                <li>"Interview avec notre designer : Les secrets derrière nos collections"</li>
+                <li>"Célébrer la diversité : La beauté de tous les corps"</li>
+                <li>"Conseils pour entretenir votre lingerie préférée"</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyrD4MWvEQ_gix7VXCa5cUff-RoyB0WAMg4Q&usqp=CAU" alt="Contact">
+            <p>Nous sommes là pour répondre à toutes vos questions, vous fournir de l'aide et recevoir vos commentaires. N'hésitez pas à nous contacter par téléphone, par e-mail ou en utilisant le formulaire ci-dessous.</p>
+            <p>Téléphone : +123 456 789</p>
+            <p>E-mail : contact@lunalingerie.com</p>
+            <p>Ou utilisez le formulaire ci-dessous :</p>
+            <form action="submit_form.php" method="post">
+                <label for="full_name">Nom complet :</label><br>
+                <input type="text" id="full_name" name="full_name"><br>
+                <label for="email">Adresse e-mail :</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="phone">Numéro de téléphone (optionnel) :</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="subject">Sujet :</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <section id="partenaire"> <!-- Nouvelle section "Partenaire" -->
+            <h2>Partenaire</h2>
+            <p>Chers partenaires, ​<br>
+            Nous souhaitons vous informer des récentes évolutions réglementaires dans notre secteur d'activité et de notre engagement à nous adapter à ces changements pour garantir la conformité et la durabilité de nos opérations. ​<br>
+            Comme vous le savez peut-être, l'Union européenne a récemment introduit une nouvelle réglementation appelée EU Digital Product Passport (DPP), qui vise à améliorer la traçabilité des produits tout au long de leur cycle de vie, ainsi qu'à renforcer la transparence et la confiance des consommateurs. ​<br>
+            Chez Luna, nous accueillons favorablement cette initiative et nous nous engageons à nous conformer pleinement à cette réglementation. Nous croyons fermement que la transparence et la responsabilité sont des éléments clés de notre engagement envers nos clients et nos partenaires, et nous sommes déterminés à travailler ensemble pour garantir le respect de ces principes. ​<br>
+            Nous sommes conscients que la mise en œuvre du DPP peut nécessiter des ajustements dans nos processus opérationnels et des investissements dans de nouvelles technologies. Soyez assurés que nous sommes déjà en train d'analyser l'impact de cette réglementation sur nos activités et de développer un plan d'action pour nous adapter efficacement à ces changements. ​<br>
+            Nous sommes convaincus que cette nouvelle réglementation offrira des opportunités supplémentaires de renforcer notre partenariat en renforçant la confiance des consommateurs dans nos produits et en démontrant notre engagement envers la durabilité et la responsabilité sociale. ​<br>
+            Nous restons à votre disposition pour toute question ou préoccupation concernant cette nouvelle réglementation et nous vous remercions de votre collaboration continue. ​<br>
+            Cordialement, ​<br>
+            L'équipe de direction de Luna</p>​
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Luna Lingerie. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // JavaScript pour gérer les onglets
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('nav ul li a');
+            const sections = document.querySelectorAll('main section');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    sections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    document.getElementById(targetId).style.display = 'block';
+                });
+            });
+
+            // Afficher la page d'accueil par défaut
+            document.getElementById('default').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
